@@ -14,8 +14,8 @@ app = Flask(__name__)
 app.secret_key = os.environ.get("FLASK_SECRET", "scar_x_vivek_domain_ultra_secret_2026")
 
 # Admin Credentials
-ADMIN_USER = "SCAR"
-ADMIN_PASS = "SCARXVIVEK"
+ADMIN_USER = "SAHIL"
+ADMIN_PASS = "SAHILXVIVEK"
 
 DB_FILE = "database.db"
 
@@ -158,7 +158,7 @@ def rename_thread_safe(cl, thread_id, title):
 # ================= WORKER THREAD =================
 def bot_worker():
     global IS_RUNNING
-    add_log("[SYSTEM] ⚡ SCAR x VIVEK Execution Engine STARTED")
+    add_log("[SYSTEM] ⚡ Sahil's Void Execution Engine STARTED")
 
     # Counter tracking message count per group ID
     msg_counter = {}
@@ -242,7 +242,7 @@ def bot_worker():
 
                 time.sleep(delay)
 
-    add_log("[SYSTEM] 🛑 SCAR x VIVEK Execution Engine STOPPED")
+    add_log("[SYSTEM] 🛑 Sahil's Void Execution Engine STOPPED")
 
 # ================= UI / DASHBOARD TEMPLATE =================
 HTML_TEMPLATE = """
@@ -251,7 +251,7 @@ HTML_TEMPLATE = """
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SCAR x VIVEK DOMAIN</title>
+    <title>Sahil's Void</title>
     <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Rajdhani:wght@500;600;700&display=swap" rel="stylesheet">
     <style>
         :root {
@@ -512,7 +512,7 @@ HTML_TEMPLATE = """
 <body>
     <div class="container">
         <header>
-            <h1>SCAR x VIVEK DOMAIN</h1>
+            <h1>Sahil's Void</h1>
             <p>HIGH PERFORMANCE INSTAGRAM MULTI-THREAD COMMAND CENTER</p>
         </header>
 
@@ -609,7 +609,7 @@ HTML_TEMPLATE = """
         </div>
 
         <footer>
-            DEVELOPER : VIVEK TIWARI
+            DEVELOPER : SAHIL
         </footer>
     </div>
 
@@ -626,7 +626,7 @@ LOGIN_TEMPLATE = """
 <!DOCTYPE html>
 <html>
 <head>
-    <title>LOGIN - SCAR x VIVEK DOMAIN</title>
+    <title>LOGIN - Sahil's Void</title>
     <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@700&family=Rajdhani:wght@600&display=swap" rel="stylesheet">
     <style>
         body {
@@ -679,7 +679,7 @@ LOGIN_TEMPLATE = """
 </head>
 <body>
     <div class="login-box">
-        <h2>SCAR x VIVEK DOMAIN</h2>
+        <h2>Sahil's Void</h2>
         <form method="post">
             <input type="text" name="username" placeholder="Admin Username" required><br>
             <input type="password" name="password" placeholder="Password" required><br>
